@@ -15,3 +15,15 @@ console.log(circumference)
 
 let area = MathUtil.getArea(30)
 console.log(area)
+
+/**
+export const PI = 3.14159
+
+export function getCircumference(radius){
+    return 2 * PI * radius
+}
+
+export function getArea(radius){
+    return  PI * radius * radius
+}
+ */
