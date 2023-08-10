@@ -1,12 +1,5 @@
-#innerDiv{
-    background-color: lightgreen;
-    width: 100px;
-    height: 100px;
-    border: 1px solid
-}
-#outerDiv{
-    background-color: lightgreen;
-    width: 200px;
-    height: 200px;
+#myImg{
+    width : 300px;
+    /* display : none; */
 
 }
