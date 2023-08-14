@@ -56,3 +56,55 @@ function updateTime(){
 function pad(unit){
     return (("0") + unit).length > 2 ? unit : "0" + unit
 }
+/**
+ * <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="timeContainer">
+        <div id="timeDisplay">00:00:00</div>
+        <button id="startBtn" class = "timerBtn">Start</button>
+        <button id="pauseBtn" class = "timerBtn">Pause</button>
+        <button id="resetBtn" class = "timerBtn">Reset</button>
+        
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+ */
+
+/**
+ * .timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+#timeDisplay{
+    font-size: 75px;
+    color : #40c437;
+    font-family: consolas, monospace;
+
+}
+
+#timeContainer{
+    text-align : center;
+    border : 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
+ */
