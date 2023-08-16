@@ -45,3 +45,55 @@ function checkWinner(){
         return (player == "ROCK") ?  "YOU WIN!" : "YOU LOSE!"
     }
 }
+/**
+ * <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div id="gameDiv">
+        <h1 class="gameText" id="playerText">Player:</h1>
+        <h1 class="gameText" id="computerText">Computer:</h1>
+        <h1 class="gameText" id="resultText">Result:</h1>
+    
+        <button class = "choiceBtn">ROCK</button>
+        <button class = "choiceBtn">PAPER</button>
+        <button class = "choiceBtn">SCISSORS</button>
+
+    </div>
+
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+ */
+
+/**
+ * .choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+
+#gameDiv{
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+ */

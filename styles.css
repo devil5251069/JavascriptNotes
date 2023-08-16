@@ -1,24 +1,19 @@
-.timerBtn{
-    width: 80px;
-    height: 30px;
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+
+#gameDiv{
+    font-family: 'Brush Script MT', cursive;
     border: 3px solid;
-    border-radius: 12px;
-    background-color: #333333;
-    color: white;
-    cursor: pointer;
-    font-family: consolas, monospace;
-}
-
-#timeDisplay{
-    font-size: 75px;
-    color : #40c437;
-    font-family: consolas, monospace;
-
-}
-
-#timeContainer{
-    text-align : center;
-    border : 3px solid;
     border-radius: 25px;
-    background-color: #222222;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
 }
