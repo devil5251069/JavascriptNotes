@@ -183,3 +183,44 @@ function resetGame(){
 }
 
 
+/**
+ * <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+       <canvas id="gameBoard" width="500" height="500"></canvas>
+       <div id="scoreText">0</div>
+       <button id="resetBtn">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+ */
+
+/**
+ * #gameContainer{
+    text-align: center;
+}
+#gameBoard{
+    border: 3px solid;
+}
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+ */
