@@ -5,7 +5,7 @@
     border: 3px solid;
 }
 #scoreText{
-    font-family: "Permanent Marker", cursive;
+    font-family: 'consolas', monospace;
     font-size: 100px;
 }
 #resetBtn{
